@@ -19,6 +19,6 @@ def index(request):
 
 
 
-class PersonalList(generic.ListView):
+class PersonalListView(generic.ListView):
     model = Personal
-    template_name = 'cliente_list.html'
+    template_name = 'AppConsorcio/personal_list.html'
